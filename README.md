@@ -94,19 +94,19 @@ APIMATICCalculatorClient client = new APIMATICCalculatorClient();
 
 ## <a name="list_of_controllers"></a>List of Controllers
 
-* [OracleCalculatorController](#oracle_calculator_controller)
+* [OraclePaasMallorcaCalculatorController](#oracle_paas_mallorca_calculator_controller)
 
-## <a name="oracle_calculator_controller"></a>![Class: ](https://apidocs.io/img/class.png "m39.m81.m213.m129.controllers.OracleCalculatorController") OracleCalculatorController
+## <a name="oracle_paas_mallorca_calculator_controller"></a>![Class: ](https://apidocs.io/img/class.png "m39.m81.m213.m129.controllers.OraclePaasMallorcaCalculatorController") OraclePaasMallorcaCalculatorController
 
 ### Get singleton instance
 
-The singleton instance of the ``` OracleCalculatorController ``` class can be accessed from the API Client.
+The singleton instance of the ``` OraclePaasMallorcaCalculatorController ``` class can be accessed from the API Client.
 
 ```java
-OracleCalculatorController oracleCalculator = client.getOracleCalculator();
+OraclePaasMallorcaCalculatorController oraclePaasMallorcaCalculator = client.getOraclePaasMallorcaCalculator();
 ```
 
-### <a name="get_calculate_async"></a>![Method: ](https://apidocs.io/img/method.png "m39.m81.m213.m129.controllers.OracleCalculatorController.getCalculateAsync") getCalculateAsync
+### <a name="get_calculate_async"></a>![Method: ](https://apidocs.io/img/method.png "m39.m81.m213.m129.controllers.OraclePaasMallorcaCalculatorController.getCalculateAsync") getCalculateAsync
 
 > Calculates the expression using the specified operation.
 
@@ -141,7 +141,7 @@ double y = 5;
 collect.setY(y);
 
 // Invoking the API call with sample inputs
-oracleCalculator.getCalculateAsync(collect, new APICallBack<Double>() {
+oraclePaasMallorcaCalculator.getCalculateAsync(collect, new APICallBack<Double>() {
     public void onSuccess(HttpContext context, Double response) {
         // TODO success callback handler
     }

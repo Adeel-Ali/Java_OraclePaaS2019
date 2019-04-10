@@ -10,11 +10,11 @@ import m39.m81.m213.m129.http.client.HttpClient;
 
 public class APIMATICCalculatorClient {
     /**
-     * Singleton access to OracleCalculator controller
-     * @return	Returns the OracleCalculatorController instance 
+     * Singleton access to OraclePaasMallorcaCalculator controller
+     * @return	Returns the OraclePaasMallorcaCalculatorController instance 
      */
-    public OracleCalculatorController getOracleCalculator() {
-        return OracleCalculatorController.getInstance();
+    public OraclePaasMallorcaCalculatorController getOraclePaasMallorcaCalculator() {
+        return OraclePaasMallorcaCalculatorController.getInstance();
     }
 
     /**
