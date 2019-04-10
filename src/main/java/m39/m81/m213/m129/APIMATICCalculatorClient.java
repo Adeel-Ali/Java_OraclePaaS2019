@@ -10,11 +10,11 @@ import m39.m81.m213.m129.http.client.HttpClient;
 
 public class APIMATICCalculatorClient {
     /**
-     * Singleton access to SimpleCalculator controller
-     * @return	Returns the SimpleCalculatorController instance 
+     * Singleton access to Pass2019MallorcaCalculator controller
+     * @return	Returns the Pass2019MallorcaCalculatorController instance 
      */
-    public SimpleCalculatorController getSimpleCalculator() {
-        return SimpleCalculatorController.getInstance();
+    public Pass2019MallorcaCalculatorController getPass2019MallorcaCalculator() {
+        return Pass2019MallorcaCalculatorController.getInstance();
     }
 
     /**

@@ -94,19 +94,19 @@ APIMATICCalculatorClient client = new APIMATICCalculatorClient();
 
 ## <a name="list_of_controllers"></a>List of Controllers
 
-* [SimpleCalculatorController](#simple_calculator_controller)
+* [Pass2019MallorcaCalculatorController](#pass2019_mallorca_calculator_controller)
 
-## <a name="simple_calculator_controller"></a>![Class: ](https://apidocs.io/img/class.png "m39.m81.m213.m129.controllers.SimpleCalculatorController") SimpleCalculatorController
+## <a name="pass2019_mallorca_calculator_controller"></a>![Class: ](https://apidocs.io/img/class.png "m39.m81.m213.m129.controllers.Pass2019MallorcaCalculatorController") Pass2019MallorcaCalculatorController
 
 ### Get singleton instance
 
-The singleton instance of the ``` SimpleCalculatorController ``` class can be accessed from the API Client.
+The singleton instance of the ``` Pass2019MallorcaCalculatorController ``` class can be accessed from the API Client.
 
 ```java
-SimpleCalculatorController simpleCalculator = client.getSimpleCalculator();
+Pass2019MallorcaCalculatorController pass2019MallorcaCalculator = client.getPass2019MallorcaCalculator();
 ```
 
-### <a name="get_calculate_async"></a>![Method: ](https://apidocs.io/img/method.png "m39.m81.m213.m129.controllers.SimpleCalculatorController.getCalculateAsync") getCalculateAsync
+### <a name="get_calculate_async"></a>![Method: ](https://apidocs.io/img/method.png "m39.m81.m213.m129.controllers.Pass2019MallorcaCalculatorController.getCalculateAsync") getCalculateAsync
 
 > Calculates the expression using the specified operation.
 
@@ -141,7 +141,7 @@ double y = 5;
 collect.setY(y);
 
 // Invoking the API call with sample inputs
-simpleCalculator.getCalculateAsync(collect, new APICallBack<Double>() {
+pass2019MallorcaCalculator.getCalculateAsync(collect, new APICallBack<Double>() {
     public void onSuccess(HttpContext context, Double response) {
         // TODO success callback handler
     }
